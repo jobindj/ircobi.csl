@@ -75,11 +75,11 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout delimiter="," prefix="[" suffix="] ">
+    <layout delimiter="," prefix="[" suffix="]">
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="2">
+  <bibliography second-field-align="flush" et-al-min="7" et-al-use-first="2">
     <layout>
       <text variable="citation-number" prefix="[" suffix="] "/>
       <text macro="author"/>
@@ -129,7 +129,7 @@
                   <date variable="issued">
                     <date-part name="year"/>
                   </date>
-                  <text variable="volume" font-weight="bold"/>
+                  <text variable="volume"/>
                 </group>
                 <text variable="page" prefix=": "/>
               </if>
